@@ -1,0 +1,33 @@
+{
+  "canon_version": "1.0",
+  "description": "a best-practice next.js landing page with hero, about, features, and contact sections, including dark mode, seo optimization, google analytics, and an email-enabled contact form.",
+  "features": [
+    "dark mode toggle",
+    "email contact form with nodemailer",
+    "google analytics integration",
+    "seo meta and opengraph tags"
+  ],
+  "pages": [
+    "about",
+    "contact",
+    "features",
+    "home"
+  ],
+  "project": {
+    "framework": "nextjs",
+    "language": "typescript",
+    "name": "landing page",
+    "type": "web_app"
+  },
+  "requirements": {
+    "accessibility": true,
+    "analytics": true,
+    "performance": "high",
+    "responsive": true,
+    "seo": true
+  },
+  "styling": {
+    "color_scheme": "light-dark",
+    "framework": "tailwind"
+  }
+}
